@@ -1,19 +1,4 @@
-document.write("Hello");
+var aSingleDivYo = document.createElement("div");
+aSingleDivYo.className ="whatever";
 
-for(var dog=0;dog < 10, dog++) {
-    document.write(dog);
-    document.write(dog);
-}
-
-var cat = 0;
-do {
-    document.write("<br>")
-    document.write(cat)
-} while (cat < 10);
-
-var monkey = 0;
-while (monkey < 10){
-    document.write("<br>");
-    document.write(monkey);
-    monkey++;
-}
+document.appendChild(aSingleDivYo);
