@@ -6,7 +6,14 @@ for(var dog=0;dog < 10, dog++) {
 }
 
 var cat = 0;
-do{
+do {
     document.write("<br>")
     document.write(cat)
 } while (cat < 10);
+
+var monkey = 0;
+while (monkey < 10){
+    document.write("<br>");
+    document.write(monkey);
+    monkey++;
+}
