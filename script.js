@@ -31,7 +31,7 @@ function glasses() {
 
 function food() {
     var favFood = document.createElement("p");
-    favFood.innertext = "icecream";
+    favFood.innerText = "icecream";
     document.body.appendChild(favFood)
 }
 
